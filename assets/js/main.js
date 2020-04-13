@@ -1,5 +1,5 @@
 // Assignment Code
-var generateBtn = document.querySelector("#generate");
+//var generateBtn = document.querySelector("#generate");
 
 // // Write password to the #password input
 // function writePassword() {
@@ -14,20 +14,32 @@ var generateBtn = document.querySelector("#generate");
 
 //generateBtn.addEventListener("click", writePassword);
 
+// DOM variables and functions
+var uppercaseEl = document.getElementById("uppercase");
+var lowercaseEl = document.getElementById("lowercase");
+var numbersEl = document.getElementById("numbers");
+var symbolsEl = document.getElementById("symbols");
+var generateBtn = document.querySelector("#generate");
 
 
-// created a random functions to make it easier to call all the functions later if necessary. 
-var randomFunction = (
-    lower: getRandomLower,
-    upper: getRandomUpper,
-    number: getRandomNumber,
-    symbol: getRandomSymbol
-);
+
+
+
+// Created a random functions to make it easier to call all the functions later if necessary. 
+var randomFunction = {
+    lower: getRandomLower(),
+    upper: getRandomUpper(),
+    number: getRandomNumber(),
+    symbol: getRandomSymbol()
+}; console.log(randomFunction);
+
+
 
 // Generate password function
-function generatePassword(lower, upper, number, symbol) {
-
-}
+function generatePassword() {
+   return randomFunction.lower + randomFunction.upper + randomFunction.number +
+   randomFunction.symbol;  
+}; console.log(generatePassword());
 
 // Generator Functions using - http://www.net-comber.com/charset.html for random numbers and upper and lower case letters. Symbols used keyboard.
 
@@ -47,4 +59,4 @@ function getRandomSymbol() {
     return symbols[Math.floor(Math.random() * symbols.length)]
 }
 
-console.log(getRandomSymbol());
+
