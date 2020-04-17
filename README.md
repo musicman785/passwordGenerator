@@ -1,51 +1,17 @@
 # passwordGenerator
  Code for a password generator.  
 
- # 03 JavaScript: Password Generator
+1. Created a randome password generator with html and css provided.
 
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+First attempt:
+Consisted of creating random functions javascript code to establish random characters. 
+Initially random functions excuted properly but limited to only four characters. This was not desireable as instructions gave parameters of between 8-120 characters per password generated that were determined by user input. So most code was discareded except for random character functions as those ran properly when ran through the console.log
 
-If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
+Second Attempt:
+Had difficulty setting up a way to generate a character counter to determine number of counters. Again, the issue was not resolved with conditional statements and my limited experience kept me from finding a more elegant solution.
 
-## User Story
-
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
-
-## Acceptance Criteria
-
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
-
-The following image demonstrates the application functionality:
-
-![password generator demo](./Assets/03-javascript-homework-demo.png)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+Third Attempt: 
+Decided to trash the whole thing and start fresh. Began writing pseudo code whole plan. Then added variables I'd beleive to be used. Followed next with all questions and implemented a while loop then a conditional statement to store user input. Still had the original random character selector functions so used those for this code as well. Created an array to store the user-input selections to push the necessary functions. Created a seperate function to generate the index for the number of times the selected functions should run. This finally generated the desired temporary password on the user window. 
+ 
+ Final Thoughts:
+ Definitely the hardest assignment for me personally. Still have trouble reconizing where a for or while loop is better in varied situations. Also, naming and re-naming variables makes it confusing to follow code logic. In need of some references to clarify. This is so far my biggest obstacle.
