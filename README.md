@@ -1,17 +1,53 @@
 # passwordGenerator
- Code for a password generator.  
 
-1. Created a randome password generator with html and css provided.
+![GitHub repo size](https://img.shields.io/github/repo-size/musicman785/passwordGenerator?logo=github)
 
-First attempt:
-Consisted of creating random functions javascript code to establish random characters. 
-Initially random functions excuted properly but limited to only four characters. This was not desireable as instructions gave parameters of between 8-120 characters per password generated that were determined by user input. So most code was discareded except for random character functions as those ran properly when ran through the console.log
+![GitHub top language](https://img.shields.io/github/languages/top/musicman785/passwordGenerator?color=%23f00&logo=github&logoColor=%23f00)
 
-Second Attempt:
-Had difficulty setting up a way to generate a character counter to determine number of counters. Again, the issue was not resolved with conditional statements and my limited experience kept me from finding a more elegant solution.
+![GitHub last commit](https://img.shields.io/github/last-commit/musicman785/passwordGenerator?color=%23f0f&logo=github&logoColor=%23f0f)
 
-Third Attempt: 
-Decided to trash the whole thing and start fresh. Began writing pseudo code whole plan. Then added variables I'd beleive to be used. Followed next with all questions and implemented a while loop then a conditional statement to store user input. Still had the original random character selector functions so used those for this code as well. Created an array to store the user-input selections to push the necessary functions. Created a seperate function to generate the index for the number of times the selected functions should run. This finally generated the desired temporary password on the user window. 
- 
- Final Thoughts:
- Definitely the hardest assignment for me personally. Still have trouble reconizing where a for or while loop is better in varied situations. Also, naming and re-naming variables makes it confusing to follow code logic. In need of some references to clarify. This is so far my biggest obstacle.
+[Link to website](https://musicman785.github.io/passwordGenerator)
+
+Client side application that generates random eight-digit passwords. Passwords are randomly generated dynamically by simply clicking the generate password button. Passwords will contain random upper and lower-case letters, numbers, and symbols.
+
+# Technologies Used
+
+1. HTML
+2. CSS
+3. Javascript
+
+# Table of Contents
+
+- [Instructions](#instructions)
+- [License](#license)
+- [Contributors](#contributors)
+- [Example Giffy](#example-giffy)
+- [Author](#author)
+
+## Instructions
+
+> Open your browser window and navigate to https://musicman785.github.io/passwordGenerator/. Once the browser window opens, simply click on the "genereate password" button, answer the prompts, and a random password will be displayed for you.
+
+## License
+
+[Not Applicable](#)
+
+## Contributors
+
+[musicman785](http://github.com/musicman785)
+
+### Example Giffy:
+
+![](assets/images/giffy.gif)
+
+## Author
+
+![ProfileImage](https://avatars2.githubusercontent.com/u/62310334?v=4)
+
+**musicman785**
+
+Email: null
+
+Location: Los Angeles
+
+Github: https://github.com/musicman785

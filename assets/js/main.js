@@ -129,7 +129,6 @@ function getRandomSymbol() {
 }
 
 // Take user input and function output and tie it to the 'generate password' btn
-
 function callRandomFunction(insertArrayUsed) {
     var randomIndex = (Math.floor(Math.random() * insertArrayUsed.length));
     var randomChar = insertArrayUsed[randomIndex]();
